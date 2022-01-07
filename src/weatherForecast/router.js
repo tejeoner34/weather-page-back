@@ -1,5 +1,4 @@
 import express from "express";
-import res from "express/lib/response";
 import { getCurrentData, getSearchedData, searchData, metricChangeController, currentLocalizationController } from "./controller.js";
 
 const router = express.Router();
